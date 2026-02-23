@@ -15,8 +15,5 @@ Instalar e configurar o Zabbix Server em ambiente **Debian WSL2** com **MariaDB*
 2. Criação do banco `zabbix` e usuário `zabbix` com senha.
 3. Configuração do arquivo `/etc/zabbix/zabbix_server.conf`:
    ```ini
-   DBHost=localhost
-   DBName=zabbix
-   DBUser=zabbix
-   DBPassword=senha123
+
 
